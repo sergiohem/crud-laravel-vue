@@ -1,4 +1,4 @@
-# CRUD Laravel/VueJS
+# CRUD Laravel / VueJS
 
 - O projeto tem como implementação um CRUD de Pessoas, utilizando PHP/Laravel para o desenvolvimento do backend e VueJS para o desenvolvimento do frontend;
 - Para autenticação de usuários, foi utilizado o [JWT](https://jwt.io/) (JSON Web Token);
