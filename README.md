@@ -1,12 +1,12 @@
 # CRUD Laravel / VueJS
 
-- O projeto tem como implementação um CRUD de Pessoas, utilizando PHP/Laravel para o desenvolvimento do backend e VueJS para o desenvolvimento do frontend;
+- O projeto tem como implementação um CRUD de Pessoas, utilizando PHP (versão 7.4) / Laravel (versão 7.x) para o desenvolvimento do backend e VueJS para o desenvolvimento do frontend;
 - Para autenticação de usuários, foi utilizado o [JWT](https://jwt.io/) (JSON Web Token);
 - O banco de dados escolhido foi o MySQL.
 
 ## Aplicação Backend
 
-Abra a pasta "backend" deste repositório no terminal e siga os passos abaixo:
+Abra a pasta `backend` deste repositório no terminal e siga os passos abaixo:
 
 #### 1) Instalação do Composer
 
@@ -69,7 +69,7 @@ Por padrão, a API será executada em http://localhost:8000. Caso queira alterar
     
 ## Aplicação Frontend
 
-Abra a pasta "frontend" deste repositório no terminal e siga os passos abaixo:
+Abra a pasta `frontend` deste repositório no terminal e siga os passos abaixo:
 
 #### 5) Verificando porta da URL da API (localhost)
 
