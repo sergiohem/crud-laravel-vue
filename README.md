@@ -6,6 +6,8 @@
 
 ## Aplicação Backend
 
+Abra a pasta "backend" deste repositório no terminal e siga os passos abaixo:
+
 #### 1) Instalação do Composer
 
 1.1) Baixe e instale o Composer (https://getcomposer.org/download/) em sua máquina, caso ainda não tenha instalado.
@@ -64,3 +66,19 @@ Este comando adicionará todos os pacotes presentes no projeto.
 Por padrão, a API será executada em http://localhost:8000. Caso queira alterar a porta, execute o comando a seguir:
 
     php artisan serve --port {SUBSTITUA PELA PORTA DESEJADA}
+    
+## Aplicação Frontend
+
+Abra a pasta "frontend" deste repositório no terminal e siga os passos abaixo:
+
+#### 5) Instalando pacotes NPM
+
+5.1) Execute o seguinte comando para instalar todas as dependências do frontend:
+
+    npm install
+
+#### 6) Executando o projeto
+
+6.1) Para executar o projeto em seu ambiente local, execute o comando a seguir:
+
+    npm run serve
