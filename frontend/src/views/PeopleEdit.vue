@@ -5,13 +5,13 @@
       <div class="card">
         <div class="card-body">
           <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
               <div class="form-group">
                 <label>Nome</label>
                 <input type="text" class="form-control" v-model="pessoa.nome" />
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
               <div class="form-group">
                 <label>E-mail</label>
                 <input
@@ -21,7 +21,7 @@
                 />
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
               <div class="form-group">
                 <label>Categoria</label>
                 <select class="form-control" v-model="pessoa.categoria_id">

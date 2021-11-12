@@ -18,7 +18,7 @@ class PessoaController extends Controller
     public function index(Request $request)
     {
         try {
-            $pessoas = Pessoa::with('categoria')->orderBy('nome')->paginate(2);
+            $pessoas = Pessoa::with('categoria')->orderBy('nome')->paginate(10);
 
             return response()->json([
                 'success' => true,

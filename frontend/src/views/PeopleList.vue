@@ -2,7 +2,7 @@
   <layout-base>
     <h3>Lista de Pessoas</h3>
     <div class="row">
-      <div class="col-12">
+      <div class="col-lg-12 col-md-12 col-sm-12">
         <table class="table table-striped table-bordered">
           <thead>
             <tr>

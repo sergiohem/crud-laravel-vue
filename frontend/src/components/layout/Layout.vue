@@ -17,18 +17,15 @@
 
         </div>
         <!-- End of Main Content -->
-        <!-- <footer-layout /> -->
     </div>
     <!-- End of Content Wrapper -->
     <!-- Scroll to Top Button-->
 </template>
 <script>
     import HeaderLayout from '@/components/layout/Header'
-    //import FooterLayout from '@/components/layout/Footer'
     export default {
         components: {
             HeaderLayout,
-            //FooterLayout,
         }
     }
 </script>
