@@ -71,14 +71,18 @@ Por padrão, a API será executada em http://localhost:8000. Caso queira alterar
 
 Abra a pasta "frontend" deste repositório no terminal e siga os passos abaixo:
 
-#### 5) Instalando pacotes NPM
+#### 5) Verificando porta da URL da API (localhost)
 
-5.1) Execute o seguinte comando para instalar todas as dependências do frontend:
+Caso você tenha alterado a porta utilizada na URL da API, abra o arquivo `src/helpers/config.js` e altere a URL com a porta atualizada.
+
+#### 6) Instalando pacotes NPM
+
+6.1) Execute o seguinte comando para instalar todas as dependências do frontend:
 
     npm install
 
-#### 6) Executando o projeto
+#### 7) Executando o projeto
 
-6.1) Para executar o projeto em seu ambiente local, execute o comando a seguir:
+7.1) Para executar o projeto em seu ambiente local, execute o comando a seguir:
 
     npm run serve
